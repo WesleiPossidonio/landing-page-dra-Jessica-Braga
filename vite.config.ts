@@ -5,8 +5,11 @@ import legacy from '@vitejs/plugin-legacy'
 export default defineConfig({
   plugins: [
     react({
+      include: /\.(jsx|tsx)$/,
       babel: {
-        plugins: ['babel-plugin-styled-components'],
+        plugins: ['styled-components'],
+        babelrc: false,
+        configFile: false,
       },
     }),
     legacy({
