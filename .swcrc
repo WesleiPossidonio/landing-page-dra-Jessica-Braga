@@ -1,0 +1,14 @@
+{
+  "jsc": {
+    "transform": {
+      "react": {
+        "runtime": "automatic",
+        "development": false,
+        "refresh": true
+      }
+    },
+    "experimental": {
+      "plugins": [["@swc/plugin-styled-components", {}]]
+    }
+  }
+}

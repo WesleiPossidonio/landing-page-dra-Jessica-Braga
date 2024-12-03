@@ -1,11 +1,14 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import react from '@vitejs/plugin-react'
 import legacy from '@vitejs/plugin-legacy'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [
-    react(),
+    react({
+      babel: {
+        plugins: ['babel-plugin-styled-components'],
+      },
+    }),
     legacy({
       targets: ['defaults', 'not IE 11'],
       renderLegacyChunks: false,
