@@ -17,11 +17,11 @@ html {
     font-size: 90.5%;
   }
 
-  /* @media (max-width: 768px) {
+  @media (max-width: 768px) {
     [data-aos=fade-left] {
         transform: translate3d(0, 0, 0);
     }
-} */
+}
 
 }
 `
