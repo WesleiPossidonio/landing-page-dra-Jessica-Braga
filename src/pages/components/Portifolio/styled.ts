@@ -31,6 +31,7 @@ export const ContainerTitle = styled.div`
 
 export const ContainerCard = styled.div`
   width: 100%;
+  max-width: 100rem;
   height: max-content;
 
   display: grid;

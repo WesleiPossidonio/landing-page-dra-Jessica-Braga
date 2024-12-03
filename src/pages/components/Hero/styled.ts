@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
-import Banner from '../../../assets/Banner.png'
+import Banner from '../../../assets/BannerUltraWilde.png'
 import BannerMobile from '../../../assets/BannerMobile.png'
+import BannerUltrawide from '../../../assets/BannerTest.png'
 
 export const ContainerHero = styled.section`
   width: 100%;
@@ -18,6 +19,11 @@ export const ContainerHero = styled.section`
   background-size: cover;
   background-repeat: no-repeat;
 
+  @media (min-width: 1800px) {
+    height: 100vh;
+    background-image: url(${BannerUltrawide});
+  }
+
   @media (max-width: 500px) {
     height: 100vh;
     background-image: url(${BannerMobile});
@@ -33,6 +39,10 @@ export const ContainerText = styled.div`
   align-items: flex-start;
   justify-content: center;
   gap: 1rem;
+
+  @media (min-width: 1800px) {
+    margin-left: 7rem;
+  }
 
   @media (max-width: 600px) {
     max-width: 70%;

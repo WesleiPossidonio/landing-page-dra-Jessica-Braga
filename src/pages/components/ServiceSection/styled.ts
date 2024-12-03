@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const ContainerServiceSection = styled.section`
   width: 100%;
+  max-width: 100rem;
   height: 35rem;
   min-height: max-content;
 
@@ -58,9 +59,6 @@ export const ContentImage = styled.div`
 
   @media (max-width: 768px) {
     width: 20rem;
-  }
-
-  @media (max-width: 600px) {
     height: 13.5rem;
   }
 
@@ -80,7 +78,7 @@ export const Image = styled.img`
     height: min(23rem, 25vh);
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     height: 13.5rem;
   }
 `

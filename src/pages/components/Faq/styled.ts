@@ -31,6 +31,7 @@ export const ContainerTitle = styled.div`
 `
 
 export const ContainerAcordion = styled.div`
+  max-width: 100rem;
   display: flex;
   align-items: center;
   justify-content: center;

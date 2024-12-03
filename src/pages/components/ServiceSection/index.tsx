@@ -28,7 +28,9 @@ export const ServiceSection = () => {
           alcance. Comece sua jornada hoje mesmo!
         </TextRegular>
         <Button bgColor="bg" btnLarge={false}>
-          Marcar Consulta!
+          <a href="https://wa.me/5521970721122" target="_blank">
+            Marcar Consulta!
+          </a>
         </Button>
       </ContentText>
     </ContainerServiceSection>

@@ -3,6 +3,10 @@ import ImgAbout2 from '../../../assets/drajessica-about.jpg'
 
 import { Button } from '../../../components'
 import { TextRegular, TitleText } from '../../../components/typograph'
+import { useNavigate } from 'react-router-dom'
+import Aos from 'aos'
+import { useEffect } from 'react'
+
 import {
   ContentImage,
   ContainerAbout,
@@ -14,7 +18,14 @@ import {
   ContentTitle,
 } from './styled'
 
+// import 'aos/dist/aos.css'
+
 export const About = () => {
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    Aos.init()
+  }, [])
   return (
     <ContainerAbout>
       <ContentText>
@@ -34,7 +45,11 @@ export const About = () => {
           e Neurociência, oferece um suporte psicológico atualizado e focado no
           bem-estar emocional.
         </TextRegular>
-        <Button bgColor="bg" btnLarge={false}>
+        <Button
+          bgColor="bg"
+          btnLarge={false}
+          onClick={() => navigate('/sobre-mim')}
+        >
           Saiba Mais!
         </Button>
       </ContentText>

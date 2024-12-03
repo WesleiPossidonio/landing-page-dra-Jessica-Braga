@@ -31,7 +31,7 @@ export const Footer = () => {
             <InstagramLogo size={30} />
           </BoxIcon>
 
-          <BoxIcon href="#" target="_blank">
+          <BoxIcon href="https://wa.me/5521970721122" target="_blank">
             <WhatsappLogo size={30} />
           </BoxIcon>
 
@@ -68,7 +68,9 @@ export const Footer = () => {
         <ContentLink>
           <TextRegular weight={500}>
             <strong>Tel:</strong>{' '}
-            <a href="tel:+5521970721122">(21)97072-1122</a>
+            <a href="https://wa.me/5521970721122" target="_blank">
+              (21)97072-1122
+            </a>
           </TextRegular>
           <TextRegular weight={500}>
             {' '}

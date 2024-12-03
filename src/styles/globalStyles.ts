@@ -16,5 +16,6 @@ html {
   @media (max-width: 1024px) {
     font-size: 90.5%;
   }
+
 }
 `

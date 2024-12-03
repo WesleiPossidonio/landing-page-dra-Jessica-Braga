@@ -9,7 +9,6 @@ import { Button, Input } from '../../../components'
 import { TextRegular, TitleText } from '../../../components/typograph'
 
 import Aos from 'aos'
-// import 'aos/dist/aos.css'
 
 import { EnvelopeOpen, PhoneCall } from '@phosphor-icons/react'
 
@@ -23,6 +22,8 @@ import {
   Form,
   TextArea,
 } from './styled'
+
+// import 'aos/dist/aos.css'
 
 const sendEmailFormSchema = zod.object({
   name: zod.string().min(3, 'Por gentileza, digite o seu nome'),
@@ -108,7 +109,7 @@ export const ContactSection = () => {
           <div>
             <TitleText size="s">Telefone</TitleText>
             <TextRegular size="sm">
-              <a href="#" target="_blank">
+              <a href="https://wa.me/5521970721122" target="_blank">
                 (21)97072-1122
               </a>{' '}
             </TextRegular>

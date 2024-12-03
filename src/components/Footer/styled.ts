@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const ContainerFooter = styled.footer`
   width: 100%;
-  max-width: 100rem;
+
   height: 18rem;
   min-height: max-content;
 

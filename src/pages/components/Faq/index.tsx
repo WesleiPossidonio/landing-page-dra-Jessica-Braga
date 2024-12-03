@@ -46,7 +46,6 @@ export const Faq = () => {
             <AccordionContent
               expandIcon={<CaretDown size={25} />}
               aria-controls="panel2-content"
-              id="panel2-header"
             >
               <Typography>A psicoterapia online é eficaz?</Typography>
             </AccordionContent>
@@ -64,7 +63,6 @@ export const Faq = () => {
             <AccordionContent
               expandIcon={<CaretDown size={25} />}
               aria-controls="panel2-content"
-              id="panel2-header"
             >
               <Typography>Como saber se preciso de psicoterapia?</Typography>
             </AccordionContent>
@@ -83,7 +81,6 @@ export const Faq = () => {
             <AccordionContent
               expandIcon={<CaretDown size={25} />}
               aria-controls="panel2-content"
-              id="panel2-header"
             >
               <Typography>Como funciona uma sessão online?</Typography>
             </AccordionContent>
@@ -101,7 +98,6 @@ export const Faq = () => {
             <AccordionContent
               expandIcon={<CaretDown size={25} />}
               aria-controls="panel2-content"
-              id="panel2-header"
             >
               <Typography>
                 A psicoterapia é só para quem tem problemas sérios?
@@ -122,7 +118,6 @@ export const Faq = () => {
             <AccordionContent
               expandIcon={<CaretDown size={25} />}
               aria-controls="panel2-content"
-              id="panel2-header"
             >
               <Typography>Qual a frequência ideal para as sessões?</Typography>
             </AccordionContent>
@@ -142,7 +137,7 @@ export const Faq = () => {
             <AccordionContent
               expandIcon={<CaretDown size={25} />}
               aria-controls="panel2-content"
-              id="panel2-header"
+              
             >
               <Typography></Typography>
             </AccordionContent>

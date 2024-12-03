@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const ContainerAbout = styled.section`
   width: 100%;
+  max-width: 100rem;
   height: 40rem;
   min-height: max-content;
 
