@@ -60,6 +60,10 @@ export const ContentImage = styled.div`
     width: 20rem;
   }
 
+  @media (max-width: 600px) {
+    height: 13.5rem;
+  }
+
   @media (max-width: 400px) {
     margin-left: -1rem;
   }
@@ -74,5 +78,9 @@ export const Image = styled.img`
 
   @media (max-width: 844px) {
     height: min(23rem, 25vh);
+  }
+
+  @media (max-width: 600px) {
+    height: 13.5rem;
   }
 `
