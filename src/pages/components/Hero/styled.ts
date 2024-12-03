@@ -40,6 +40,6 @@ export const ContainerText = styled.div`
 
   @media (max-width: 500px) {
     max-width: 100%;
-    margin-top: 5rem;
+    margin-top: 7.5rem;
   }
 `

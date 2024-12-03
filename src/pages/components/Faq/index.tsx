@@ -128,12 +128,32 @@ export const Faq = () => {
             </AccordionContent>
             <AccordionDetails>
               <Typography>
+                A frequência das sessões é ajustada de forma personalizada,
+                levando em conta as necessidades e objetivos individuais de cada
+                paciente. Geralmente, recomenda-se a realização de uma sessão
+                por semana, porém, o psicólogo pode adaptar essa frequência ao
+                longo do tratamento, considerando a evolução do paciente e sua
+                disponibilidade.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+
+          {/* <Accordion>
+            <AccordionContent
+              expandIcon={<CaretDown size={25} />}
+              aria-controls="panel2-content"
+              id="panel2-header"
+            >
+              <Typography></Typography>
+            </AccordionContent>
+            <AccordionDetails>
+              <Typography>
                 A frequência é personalizada, mas geralmente é recomendada uma
                 sessão por semana. O psicólogo pode ajustar conforme sua
                 evolução e disponibilidade.
               </Typography>
             </AccordionDetails>
-          </Accordion>
+          </Accordion> */}
         </ContentAcordion>
       </ContainerAcordion>
     </ContainerFaq>
