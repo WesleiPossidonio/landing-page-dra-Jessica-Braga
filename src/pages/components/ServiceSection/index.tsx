@@ -1,7 +1,12 @@
 import ImgAbout from '../../../assets/service-img.jpg'
 
+import { useEffect } from 'react'
 import { Button } from '../../../components'
 import { TextRegular, TitleText } from '../../../components/typograph'
+
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 import {
   ContentImage,
   ContentText,
@@ -11,15 +16,19 @@ import {
 } from './styled'
 
 export const ServiceSection = () => {
+  useEffect(() => {
+    Aos.init()
+  }, [])
+
   return (
     <ContainerServiceSection>
-      <ContainerImage>
+      <ContainerImage data-aos="zoom-in" data-aos-duration="1500">
         <ContentImage>
           <Image src={ImgAbout} />
         </ContentImage>
       </ContainerImage>
 
-      <ContentText>
+      <ContentText data-aos="fade-left" data-aos-duration="1500">
         <TitleText size="l">Psicoterapia On-line</TitleText>
         <TextRegular>
           Cuide da sua saúde mental sem sair de casa. A terapia online oferece o

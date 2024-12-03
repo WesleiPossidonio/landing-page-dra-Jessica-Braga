@@ -1,5 +1,8 @@
+import { useEffect } from 'react'
 import { BookOpenUser } from '@phosphor-icons/react'
 import { TextRegular, TitleText } from '../../../components/typograph'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import {
   CardProtifolio,
   ContainerCard,
@@ -19,6 +22,10 @@ interface PortifolioProps {
 }
 
 export const Portifolio = ({ listProtifolio }: PortifolioProps) => {
+  useEffect(() => {
+    Aos.init()
+  }, [])
+
   return (
     <ContainerPortifolio>
       <ContainerTitle>
@@ -33,7 +40,11 @@ export const Portifolio = ({ listProtifolio }: PortifolioProps) => {
       <ContainerCard>
         {listProtifolio.map((list) => {
           return (
-            <CardProtifolio key={list.id}>
+            <CardProtifolio
+              key={list.id}
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
               <TitleText size="s">{list.courseName}</TitleText>
               <TextRegular>
                 {list.schoolName} <br /> {list.yearsCourse}

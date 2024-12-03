@@ -23,7 +23,7 @@ import {
   TextArea,
 } from './styled'
 
-// import 'aos/dist/aos.css'
+import 'aos/dist/aos.css'
 
 const sendEmailFormSchema = zod.object({
   name: zod.string().min(3, 'Por gentileza, digite o seu nome'),
@@ -90,7 +90,7 @@ export const ContactSection = () => {
 
   return (
     <ContainerContact id="contact">
-      <ContentText data-aos="fade-left" data-aos-duration="600">
+      <ContentText data-aos="fade-left" data-aos-duration="1500">
         <TitleText size="s" color="bg">
           - Contatos
         </TitleText>
@@ -134,7 +134,7 @@ export const ContactSection = () => {
       <Form
         onSubmit={handleSubmit(handleSendEmail)}
         data-aos="zoom-in"
-        data-aos-duration="600"
+        data-aos-duration="1500"
       >
         <div>
           <Input

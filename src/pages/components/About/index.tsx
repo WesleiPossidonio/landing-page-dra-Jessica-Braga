@@ -18,7 +18,7 @@ import {
   ContentTitle,
 } from './styled'
 
-// import 'aos/dist/aos.css'
+import 'aos/dist/aos.css'
 
 export const About = () => {
   const navigate = useNavigate()
@@ -28,7 +28,7 @@ export const About = () => {
   }, [])
   return (
     <ContainerAbout>
-      <ContentText>
+      <ContentText data-aos="fade-right" data-aos-duration="1500">
         <ContentTitle>
           <TextRegular size="sm" color="bg" weight={600}>
             - SOBRE MIM
@@ -54,7 +54,7 @@ export const About = () => {
         </Button>
       </ContentText>
 
-      <ContainerImage>
+      <ContainerImage data-aos="zoom-in" data-aos-duration="1500">
         <ContentImage>
           <Image src={ImgAbout} />
         </ContentImage>
