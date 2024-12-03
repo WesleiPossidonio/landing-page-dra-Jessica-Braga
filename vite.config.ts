@@ -1,20 +1,17 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import legacy from '@vitejs/plugin-legacy'
+import babel from 'vite-plugin-babel'
 
 export default defineConfig({
   plugins: [
-    react({
-      include: /\.(jsx|tsx)$/,
-      babel: {
-        plugins: ['styled-components'],
-        babelrc: false,
-        configFile: false,
+    react(),
+    babel({
+      babelConfig: {
+        plugins: [
+          ['@babel/plugin-transform-react-jsx', { runtime: 'automatic' }],
+          ['@babel/plugin-transform-template-literals', { loose: true }],
+        ],
       },
-    }),
-    legacy({
-      targets: ['defaults', 'not IE 11'],
-      renderLegacyChunks: false,
     }),
   ],
 })
