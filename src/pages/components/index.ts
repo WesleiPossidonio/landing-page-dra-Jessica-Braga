@@ -1,0 +1,5 @@
+export * from './Hero'
+export * from './About'
+export * from './CallAction'
+export * from './ServiceSection'
+export * from './Faq'
