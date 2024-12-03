@@ -23,7 +23,7 @@ import {
   TextArea,
 } from './styled'
 
-import 'aos/dist/aos.css'
+// import 'aos/dist/aos.css'
 
 const sendEmailFormSchema = zod.object({
   name: zod.string().min(3, 'Por gentileza, digite o seu nome'),

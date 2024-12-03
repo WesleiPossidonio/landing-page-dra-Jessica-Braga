@@ -5,7 +5,7 @@ import { Button } from '../../../components'
 import { TextRegular, TitleText } from '../../../components/typograph'
 
 import Aos from 'aos'
-import 'aos/dist/aos.css'
+// import 'aos/dist/aos.css'
 
 import {
   ContentImage,

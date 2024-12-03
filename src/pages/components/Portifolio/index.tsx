@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { BookOpenUser } from '@phosphor-icons/react'
 import { TextRegular, TitleText } from '../../../components/typograph'
 import Aos from 'aos'
-import 'aos/dist/aos.css'
+// import 'aos/dist/aos.css'
 import {
   CardProtifolio,
   ContainerCard,
