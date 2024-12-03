@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
-import Banner from '../../../assets/BannerUltraWilde.png'
+import Banner from '../../../assets/Banner.png'
 import BannerMobile from '../../../assets/BannerMobile.png'
-import BannerUltrawide from '../../../assets/BannerTest.png'
+import BannerUltrawide from '../../../assets/BannerUltraWilde.png'
 
 export const ContainerHero = styled.section`
   width: 100%;
