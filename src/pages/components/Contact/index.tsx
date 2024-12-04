@@ -123,8 +123,8 @@ export const ContactSection = () => {
           <div>
             <TitleText size="s">Email:</TitleText>
             <TextRegular size="sm">
-              <a href="mailto:petro@petrotoolsoffshore.com.br">
-                petro@petrotoolsoffshore.com.br
+              <a href="mailto:jessicambraga1@gmail.com">
+                jessicambraga1@gmail.com
               </a>{' '}
             </TextRegular>
           </div>

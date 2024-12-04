@@ -74,8 +74,10 @@ export const Footer = () => {
           </TextRegular>
           <TextRegular weight={500}>
             {' '}
-            <strong>Email:jessicambraga1@gmail.com</strong>{' '}
-            <a href="mailto:jessicambraga1@gmail.com"></a>
+            <strong>Email:</strong>{' '}
+            <a href="mailto:jessicambraga1@gmail.com">
+              jessicambraga1@gmail.com
+            </a>
           </TextRegular>
         </ContentLink>
       </ContainerNavigate>
