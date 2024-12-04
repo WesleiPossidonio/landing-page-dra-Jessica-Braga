@@ -22,7 +22,6 @@ export const ContainerHero = styled.section`
   @media (min-width: 1800px) {
     height: auto;
     min-height: 100dvh;
-    min-height: -webkit-fill-available;
     background-image: url(${BannerUltrawide});
   }
 
