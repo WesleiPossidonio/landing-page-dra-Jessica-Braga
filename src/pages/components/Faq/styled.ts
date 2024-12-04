@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import { styled } from 'styled-components'
 import AccordionSummary from '@mui/material/AccordionSummary'
 import { styled as muiStyled } from '@mui/material/styles'
 

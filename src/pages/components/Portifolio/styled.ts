@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import { styled } from 'styled-components'
 
 export const ContainerPortifolio = styled.section`
   width: 100%;
@@ -15,7 +15,6 @@ export const ContainerPortifolio = styled.section`
   background-color: ${({ theme }) => theme.colors['base-bg']};
 
   @media (max-width: 500px) {
-    height: max-content;
     padding: 3rem 1.5rem;
   }
 `

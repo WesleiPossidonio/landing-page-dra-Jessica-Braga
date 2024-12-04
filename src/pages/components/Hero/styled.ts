@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import { styled } from 'styled-components'
 
 import Banner from '../../../assets/Banner.png'
 import BannerMobile from '../../../assets/BannerMobile.png'

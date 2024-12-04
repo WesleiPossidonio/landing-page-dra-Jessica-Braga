@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import { styled } from 'styled-components'
 
 export const ContainerServiceSection = styled.section`
   width: 100%;
