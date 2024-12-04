@@ -15,19 +15,6 @@ export const ContainerImages = styled.div`
     width: min(32rem, 75vw);
     height: 25rem;
   }
-
-  /* @media (max-width: 500px) {
-    height: 20rem;
-  }
-
-  @media (max-width: 425px) {
-    height: 14rem;
-    margin-left: 2.8rem;
-  }
-
-  @media (max-width: 340px) {
-    margin-left: 2.4rem;
-  } */
 `
 
 export const Image = styled.img`
@@ -45,12 +32,4 @@ export const Image = styled.img`
     width: min(32rem, 75vw);
     height: 25rem;
   }
-
-  /* @media (max-width: 500px) {
-    height: 20rem;
-  }
-
-  @media (max-width: 425px) {
-    height: 14rem;
-  }  */
 `
