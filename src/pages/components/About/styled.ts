@@ -5,6 +5,7 @@ export const ContainerAbout = styled.section`
   max-width: 100rem;
   height: 40rem;
   min-height: max-content;
+  min-height: -webkit-fill-available;
 
   display: flex;
   align-items: center;
@@ -14,6 +15,8 @@ export const ContainerAbout = styled.section`
   padding: 4rem 2rem;
 
   @media (max-width: 937px) {
+    height: auto;
+    min-height: 100dvh;
     flex-direction: column;
     align-items: center;
     justify-content: center;

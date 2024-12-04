@@ -4,6 +4,7 @@ export const ContainerPortifolio = styled.section`
   width: 100%;
   height: 40rem;
   min-height: max-content;
+  min-height: -webkit-fill-available;
 
   display: flex;
   flex-direction: column;
@@ -13,6 +14,11 @@ export const ContainerPortifolio = styled.section`
   padding: 3rem;
   margin-top: 3.5rem;
   background-color: ${({ theme }) => theme.colors['base-bg']};
+
+  @media (max-width: 800px) {
+    height: auto;
+    min-height: 100dvh;
+  }
 
   @media (max-width: 500px) {
     padding: 3rem 1.5rem;

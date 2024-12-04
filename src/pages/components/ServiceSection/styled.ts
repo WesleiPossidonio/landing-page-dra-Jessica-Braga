@@ -4,7 +4,7 @@ export const ContainerServiceSection = styled.section`
   width: 100%;
   max-width: 100rem;
   height: 35rem;
-  min-height: max-content;
+  min-height: -webkit-fill-available;
 
   display: flex;
   align-items: center;
@@ -14,6 +14,8 @@ export const ContainerServiceSection = styled.section`
   padding: 4rem 3rem 2rem 3rem;
 
   @media (max-width: 818px) {
+    height: auto;
+    min-height: 100dvh;
     flex-direction: column;
     padding: 3rem 1.5rem;
   }

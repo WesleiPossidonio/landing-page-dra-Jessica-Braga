@@ -5,6 +5,7 @@ export const ContainerContact = styled.section`
   max-width: 100rem;
   height: 40rem;
   min-height: max-content;
+  min-height: -webkit-fill-available;
 
   display: flex;
   align-items: center;
@@ -17,6 +18,8 @@ export const ContainerContact = styled.section`
   background-color: ${({ theme }) => theme.colors['base-white']};
 
   @media (max-width: 768px) {
+    height: auto;
+    min-height: 100dvh;
     flex-direction: column;
     padding: 3.5rem 1.5rem;
   }
