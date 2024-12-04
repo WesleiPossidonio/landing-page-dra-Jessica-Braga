@@ -3,8 +3,7 @@ import { styled } from 'styled-components'
 export const ContainerPortifolio = styled.section`
   width: 100%;
   height: 40rem;
-  min-height: max-content;
-  min-height: -webkit-fill-available;
+  min-height: auto;
 
   display: flex;
   flex-direction: column;
