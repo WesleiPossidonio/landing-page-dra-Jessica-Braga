@@ -11,10 +11,7 @@ export const GlobalStyled = createGlobalStyle`
   text-decoration: none;
 }
 
-html, body, #root {
-    height: 100%;
-    width: 100%;
-  }
+
 
 html {
   scroll-behavior: smooth;
@@ -22,13 +19,9 @@ html {
     font-size: 90.5%;
   }
 
-  @media (max-width: 768px) {
-    [data-aos=fade-left] {
+
+  [data-aos=fade-left] {
         transform: translate3d(0, 0, 0);
-    }
-}
-
-
-
+  }
 }
 `
