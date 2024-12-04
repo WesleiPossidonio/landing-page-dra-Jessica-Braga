@@ -2,9 +2,7 @@ import styled from 'styled-components'
 
 export const ContainerFooter = styled.footer`
   width: 100%;
-
   height: 18rem;
-  min-height: max-content;
 
   display: flex;
   align-items: flex-start;
@@ -17,6 +15,8 @@ export const ContainerFooter = styled.footer`
   background-color: ${({ theme }) => theme.colors['base-bg']};
 
   @media (max-width: 768px) {
+    height: auto;
+    min-height: 100dvh;
     flex-wrap: wrap;
     padding: 1.5rem;
   }

@@ -14,6 +14,11 @@ export const ContainerPortifolio = styled.section`
   margin-top: 3.5rem;
   background-color: ${({ theme }) => theme.colors['base-bg']};
 
+  @media (max-width: 800px) {
+    height: auto;
+    min-height: 100dvh;
+  }
+
   @media (max-width: 500px) {
     padding: 3rem 1.5rem;
   }
