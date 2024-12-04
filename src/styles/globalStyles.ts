@@ -11,6 +11,11 @@ export const GlobalStyled = createGlobalStyle`
   text-decoration: none;
 }
 
+html, body, #root {
+    height: 100%;
+    width: 100%;
+  }
+
 html {
   scroll-behavior: smooth;
   @media (max-width: 1024px) {
@@ -22,6 +27,8 @@ html {
         transform: translate3d(0, 0, 0);
     }
 }
+
+
 
 }
 `
