@@ -1,15 +1,14 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+// import react from '@vitejs/plugin-react'
 import babel from 'vite-plugin-babel'
 
 export default defineConfig({
   plugins: [
-    react(),
+    // react(),
     babel({
       babelConfig: {
         plugins: [
-          ['@babel/plugin-transform-react-jsx', { runtime: 'automatic' }],
-          ['@babel/plugin-transform-template-literals', { loose: true }],
+          ['babel-plugin-styled-components', { ssr: true, displayName: true }],
         ],
       },
     }),
