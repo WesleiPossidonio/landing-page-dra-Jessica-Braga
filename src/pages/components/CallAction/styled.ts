@@ -11,7 +11,6 @@ export const ContainerCallAction = styled.section`
 
   @media (max-width: 800px) {
     height: auto;
-    min-height: 100dvh;
   }
 `
 

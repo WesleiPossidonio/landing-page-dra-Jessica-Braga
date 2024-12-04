@@ -16,7 +16,6 @@ export const ContainerFooter = styled.footer`
 
   @media (max-width: 768px) {
     height: auto;
-    min-height: 100dvh;
     flex-wrap: wrap;
     padding: 1.5rem;
   }

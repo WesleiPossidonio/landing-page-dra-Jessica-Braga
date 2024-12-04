@@ -15,7 +15,6 @@ export const ContainerServiceSection = styled.section`
 
   @media (max-width: 818px) {
     height: auto;
-    min-height: 100dvh;
     flex-direction: column;
     padding: 3rem 1.5rem;
   }
