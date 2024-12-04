@@ -20,16 +20,15 @@ export const ContainerHero = styled.section`
   background-repeat: no-repeat;
 
   @media (min-width: 1800px) {
-    height: 100vh;
-    height: 100dvh;
+    height: auto;
+    min-height: 100dvh;
     min-height: -webkit-fill-available;
     background-image: url(${BannerUltrawide});
   }
 
   @media (max-width: 500px) {
-    height: 100vh;
-    height: 100dvh;
-    min-height: -webkit-fill-available;
+    height: auto;
+    min-height: 100dvh;
     background-image: url(${BannerMobile});
     align-items: flex-start;
     padding: 1.8rem;

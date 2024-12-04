@@ -8,6 +8,11 @@ export const ContainerCallAction = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 800px) {
+    height: auto;
+    min-height: 100dvh;
+  }
 `
 
 export const ContentCallAction = styled.div`
