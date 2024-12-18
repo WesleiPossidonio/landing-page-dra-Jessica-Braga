@@ -2,10 +2,9 @@ import { styled } from 'styled-components'
 
 export const ContainerAbout = styled.section`
   width: 100%;
-  max-width: 100rem;
-  height: 40rem;
-  min-height: max-content;
-  min-height: -webkit-fill-available;
+  max-width: 120rem;
+  height: auto;
+  min-height: 42rem;
 
   display: flex;
   align-items: center;
@@ -26,7 +25,7 @@ export const ContainerAbout = styled.section`
 `
 
 export const ContentText = styled.div`
-  max-width: 50%;
+  max-width: 40%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

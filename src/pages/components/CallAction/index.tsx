@@ -11,7 +11,13 @@ export const CallAction = () => {
           Encontre equilíbrio e clareza com uma consulta{' '}
         </TitleText>
         <Button bgColor="secundary-bg" btnLarge>
-          Marcar Consulta!
+          <a
+            href="https://wa.me/5521970721122"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Marcar Consulta!
+          </a>
         </Button>
       </ContentCallAction>
     </ContainerCallAction>

@@ -21,7 +21,7 @@ export const ServiceSection = () => {
   }, [])
 
   return (
-    <ContainerServiceSection>
+    <ContainerServiceSection id="services">
       <ContainerImage data-aos="zoom-in" data-aos-duration="1500">
         <ContentImage>
           <Image src={ImgAbout} />

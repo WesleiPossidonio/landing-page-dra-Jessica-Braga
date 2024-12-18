@@ -16,8 +16,21 @@ import {
   ImageLogo,
 } from './styled'
 import { TextRegular, TitleText } from '../typograph'
+import { useLocation, useNavigate } from 'react-router-dom'
 
 export const Footer = () => {
+  const navigate = useNavigate()
+  const location = useLocation()
+
+  // Função para navegação e manipulação de âncoras
+  const handleNavigate = (path: string) => {
+    if (location.pathname !== '/') {
+      navigate(`/${path}`)
+    } else {
+      window.location.hash = path
+    }
+  }
+
   return (
     <ContainerFooter>
       <ContainerLogo>
@@ -46,19 +59,21 @@ export const Footer = () => {
         <ContentLink>
           <TextRegular weight={500}>
             {' '}
-            <a href="#home">Home</a>
+            <a onClick={() => handleNavigate('#home')}>Home</a>
           </TextRegular>
           <TextRegular weight={500}>
             {' '}
-            <a href="#about">Sobre Nós</a>
+            <a onClick={() => handleNavigate('#about')}>Sobre Nós</a>
           </TextRegular>
           <TextRegular weight={500}>
             {' '}
-            <a href="#services">Serviços</a>
+            <a onClick={() => handleNavigate('#services')}>Serviços</a>
           </TextRegular>
           <TextRegular weight={500}>
             {' '}
-            <a href="#contact">Contatos</a>
+            <a href="#contact" onClick={() => handleNavigate('#contact')}>
+              Contatos
+            </a>
           </TextRegular>
         </ContentLink>
       </ContainerNavigate>

@@ -20,7 +20,7 @@ export const DefaultThemes = {
     'title-regular-sm': '0.875rem',
     'title-regular-s': '1.2rem',
     'title-regular-m': 'min(1.5rem, 4.5vw)',
-    'title-regular-l': 'min(2.1rem, 6.3vw)',
+    'title-regular-l': 'min(2.5rem, 6.3vw)',
     'title-regular-xl': 'min(2.8rem, 7vw)',
   },
 }

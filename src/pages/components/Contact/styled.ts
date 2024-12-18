@@ -2,7 +2,7 @@ import { styled } from 'styled-components'
 
 export const ContainerContact = styled.section`
   width: 100%;
-  max-width: 100rem;
+  max-width: 130rem;
   height: 40rem;
   min-height: max-content;
   min-height: -webkit-fill-available;
@@ -26,7 +26,7 @@ export const ContainerContact = styled.section`
 `
 
 export const Form = styled.form`
-  /* width: 50%; */
+  width: 50%;
   height: 32rem;
   min-height: max-content;
 
@@ -104,7 +104,7 @@ export const TextArea = styled.textarea<TextAreaProps>`
 `
 
 export const ContentText = styled.div`
-  /* width: 50%; */
+  width: 50%;
 
   display: flex;
   flex-direction: column;

@@ -54,7 +54,10 @@ export const Header = () => {
 
   return (
     <ContainerHeaderMenu stateHeader={stateBackgroundHeader}>
-      <NavLink stateHeader={stateBackgroundHeader} href="#home">
+      <NavLink
+        stateHeader={stateBackgroundHeader}
+        onClick={() => handleNavigate('#home')}
+      >
         <ImgLogo src={Logo} />
       </NavLink>
 

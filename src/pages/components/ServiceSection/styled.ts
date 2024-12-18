@@ -3,8 +3,8 @@ import { styled } from 'styled-components'
 export const ContainerServiceSection = styled.section`
   width: 100%;
   max-width: 100rem;
-  height: 35rem;
-  min-height: -webkit-fill-available;
+  height: auto;
+  min-height: 35rem;
 
   display: flex;
   align-items: center;

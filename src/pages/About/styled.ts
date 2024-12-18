@@ -16,12 +16,15 @@ export const ContainerAbout = styled.main`
 
 export const SectionAbout = styled.section`
   width: 100%;
-  min-height: max-content;
+  max-width: 135rem;
+  height: auto;
 
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 3rem;
+
+  margin: 0 auto;
 
   padding: 3rem;
 

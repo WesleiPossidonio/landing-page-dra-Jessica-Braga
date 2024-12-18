@@ -95,7 +95,7 @@ export const ContactSection = () => {
           - Contatos
         </TitleText>
         <TitleText size="l">
-          Fale Conosco e Faça Seu Projeto Acontecer
+          Fale Conosco <br /> e Faça Seu Projeto Acontecer
         </TitleText>
         <TextRegular>
           Estamos aqui para ouvir suas necessidades e oferecer soluções sob

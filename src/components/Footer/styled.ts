@@ -82,6 +82,10 @@ export const ContainerNavigate = styled.div`
   justify-content: center;
   gap: 1rem;
 
+  p a {
+    cursor: pointer;
+  }
+
   @media (max-width: 768px) {
     width: 100%;
   }

@@ -4,7 +4,7 @@ import { ContainerHero, ContainerText } from './styled'
 
 export const Hero = () => {
   return (
-    <ContainerHero>
+    <ContainerHero id="home">
       <ContainerText>
         <TitleText size="xl" color="secundary-bg">
           Transforme desafios em equilíbrio emocional.

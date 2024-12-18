@@ -27,7 +27,7 @@ export const About = () => {
     Aos.init()
   }, [])
   return (
-    <ContainerAbout>
+    <ContainerAbout id="about">
       <ContentText data-aos="fade-right" data-aos-duration="1500">
         <ContentTitle>
           <TextRegular size="sm" color="bg" weight={600}>
